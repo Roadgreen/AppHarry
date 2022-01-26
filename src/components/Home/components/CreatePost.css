@@ -1,0 +1,109 @@
+.container-Create {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.cart-Create {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(84, 88, 88);
+    width: 340px;
+    height: auto;
+    margin: 20px;
+    border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -ms-border-radius: 1.2em;
+    -o-border-radius: 1.2em;
+    overflow: hidden;
+}
+.profilPhotos {
+    background-color: cadetblue;
+    width: 35px;
+    float: left;
+    height: 35px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.input {
+    resize: none;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: 0px ;
+    width: 250px;
+    height: 50px;
+    overflow-wrap: break-word;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.input:focus {
+    overflow-wrap: break-word;
+    background-color: lightgrey;
+    text-decoration: none;
+    border-color: royalblue;
+    border: 0px solid red;
+}
+
+.buttonPhotos {
+    margin-top: 17px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 40px;
+    font-size: 9px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.buttonText {
+    margin-top: 17px;
+    width: 40px;
+    font-size: 9px;
+    border-radius: 10px;
+    border: 0px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.buttonTextArea {
+    margin-top: 17px;
+    width: 55px;
+    margin-left: 10px;
+    font-size: 9px;
+    border-radius: 10px;
+    border: 0px;
+    height: 20px;
+}
+.inputPhotos {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.firstLigne {
+    display: flex;
+    flex-direction: row;
+}
